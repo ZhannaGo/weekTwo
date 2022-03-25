@@ -1,0 +1,16 @@
+<script>
+
+function checkTestScore(score){
+    let result;
+    //ask if score is greater than 6
+    if(score > 6){
+        result = 'Advanced'
+    }else{
+        result = 'Moderate'
+    }
+    return result;
+}
+console.log(checkTestScore(8)) //expected 'Advanced'
+console.log(checkTestScore(4)) // expected 'Moderate'
+ 
+</script>
